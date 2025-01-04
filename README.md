@@ -2,7 +2,7 @@
 
 This repository contains a Deep Q-Learning implementation for the LunarLander-v3 environment using PyTorch and Gymnasium. The agent is trained to control a lunar lander to safely land on a target platform.
 
-**Features**
+**Features:**
 
 Custom neural network architecture for Q-learning.
 Experience replay to stabilize training.
@@ -11,33 +11,35 @@ Hyperparameter tuning for optimal performance.
 Visualization of the trained agent in action.
 
 
-**Requirements**
+**Requirements:**
 
-_Install the necessary dependencies:_
+**_Install the necessary dependencies:_**
 
-pip install torch gymnasium numpy matplotlib imageio
+          pip install torch gymnasium numpy matplotlib imageio
+          
+          pip install "gymnasium[box2d]" "gymnasium[atari, accept-rom-license]"
 
-pip install "gymnasium[box2d]" "gymnasium[atari, accept-rom-license]"
+**_For rendering the environment, ensure you have:_**
 
-_For rendering the environment, ensure you have:_
+          apt-get install -y swig
 
-apt-get install -y swig
 
-_How to Run_
+**_How to Run_**
 
-**1. Clone the Repository**
+**1. Clone the Repository:**
 
-git clone https://github.com/<YourUsername>/lunar-lander-dqn.git
-cd lunar-lander-dqn
+          git clone https://github.com/<YourUsername>/lunar-lander-dqn.git
+          
+          cd lunar-lander-DQN
 
 **3. Open the Notebook**
 
 Launch the Jupyter Notebook to train and visualize the agent:
-jupyter notebook lunar_lander_dqn.ipynb
+jupyter notebook lunar_lander_DQN.ipynb
 
 **Repository Structure:**
 
-lunar-lander-dqn/
+lunar-lander-DQN/
 
 
 ├── lunar_lander_dqn.ipynb     # Jupyter Notebook with training and visualization
@@ -53,23 +55,20 @@ _State Space:_ 8-dimensional continuous vector.
 _Action Space:_ 4 discrete actions:
 
           Do nothing
-          
           Fire left orientation engine
-          
           Fire main engine
-          
           Fire right orientation engine
           
-**Results**
+**Results:**
 
 The agent successfully solves the Lunar Lander environment, achieving an average score of 200+ over 100 episodes after approximately 700 episodes of training.
 
-**Acknowledgments**
+**Acknowledgments:**
 
 Gymnasium for the Lunar Lander environment.
 PyTorch for neural network implementation.
 Inspiration from reinforcement learning literature and tutorials.
 
-**Tips for Viewing Jupyter Notebooks**
+**Tips for Viewing Jupyter Notebooks:**
 
 GitHub supports rendering .ipynb files directly in the browser. However, for interactive use, it's recommended to open the notebook in a Jupyter environment.
