@@ -28,9 +28,9 @@ Visualization of the trained agent in action.
 
 **1. Clone the Repository:**
 
-          git clone https://github.com/<YourUsername>/lunar-lander-dqn.git
+          git clone https://github.com/<YourUsername>/Lunar_Lander_DQN.git
           
-          cd lunar-lander-DQN
+          cd Lunar_Lander_DQN
 
 **3. Open the Notebook**
 
@@ -39,10 +39,10 @@ jupyter notebook lunar_lander_DQN.ipynb
 
 **Repository Structure:**
 
-lunar-lander-DQN/
+Lunar_Lander_DQN/
 
 
-├── lunar_lander_dqn.ipynb     # Jupyter Notebook with training and visualization
+├── Deep_Q_Learning_For_Lunar_Landing.ipynb     # Jupyter Notebook with training and visualization
 
 ├── README.md                  # Project documentation
 
