@@ -14,10 +14,13 @@ Visualization of the trained agent in action.
 **Requirements**
 
 _Install the necessary dependencies:_
+
 pip install torch gymnasium numpy matplotlib imageio
+
 pip install "gymnasium[box2d]" "gymnasium[atari, accept-rom-license]"
 
 _For rendering the environment, ensure you have:_
+
 apt-get install -y swig
 
 _How to Run_
@@ -35,18 +38,26 @@ jupyter notebook lunar_lander_dqn.ipynb
 **Repository Structure:**
 
 lunar-lander-dqn/
-│
+
+
 ├── lunar_lander_dqn.ipynb     # Jupyter Notebook with training and visualization
+
 ├── README.md                  # Project documentation
 
 **Environment Details:**
 
 _Environment Name:_ LunarLander-v3
+
 _State Space:_ 8-dimensional continuous vector.
+
 _Action Space:_ 4 discrete actions:
+
           Do nothing
+          
           Fire left orientation engine
+          
           Fire main engine
+          
           Fire right orientation engine
           
 **Results**
