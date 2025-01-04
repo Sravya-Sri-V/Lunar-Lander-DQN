@@ -54,10 +54,13 @@ _State Space:_ 8-dimensional continuous vector.
 
 _Action Space:_ 4 discrete actions:
 
-          Do nothing
-          Fire left orientation engine
-          Fire main engine
-          Fire right orientation engine
+1.Do nothing
+
+2.Fire left orientation engine
+
+3.Fire main engine
+
+4.Fire right orientation engine
           
 **Results:**
 
